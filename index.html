@@ -1,9 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; background: #f9f9f9; color: #333; }
+        h1, h2 { color: #111; }
+        .skills-badge { display: inline-block; background: #0366d6; color: white; padding: 5px 10px; border-radius: 4px; margin: 3px; font-size: 14px; }
+        .project-card { background: white; padding: 15px; margin-bottom: 15px; border-radius: 6px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        .project-link { display: inline-block; margin-top: 10px; color: #0366d6; text-decoration: none; font-weight: bold; }
+    </style>
 </head>
 <body>
-    <h1>Hello, world! Welcome to my website.</h1>
+
+    <header>
+        <h1>Hi, I'm [Your Name] 👋</h1>
+        <p>A passionate developer specialized in building web applications.</p>
+    </header>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <!-- Add your skills here -->
+        <span class="skills-badge">HTML5</span>
+        <span class="skills-badge">CSS3</span>
+        <span class="skills-badge">JavaScript</span>
+        <span class="skills-badge">Git & GitHub</span>
+    </section>
+
+    <section>
+        <h2>Featured Projects</h2>
+        
+        <!-- Project 1 -->
+        <div class="project-card">
+            <h3>Project One Title</h3>
+            <p>A brief description of what this project does, the problem it solves, and the tech stack used to build it.</p>
+            <a class="project-link" href="https://github.com" target="_blank">View Code ↗</a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card">
+            <h3>Project Two Title</h3>
+            <p>Another awesome project description highlighting your specific contributions and engineering choices.</p>
+            <a class="project-link" href="https://github.com2" target="_blank">View Code ↗</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>Let's connect: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </footer>
+
 </body>
 </html>
