@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tin Thanda Swe - Senior Software Engineer</title>
-  <!-- Bootstrap 5 CSS for Instant Styling -->
+  <!-- Bootstrap 5 CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
@@ -13,10 +13,10 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
     .profile-img {
-      width: 170px;
-      height: 170px;
+      width: 180px;
+      height: 180px;
       object-fit: cover;
-      border-radius: 50%;
+      border-radius: 8px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.15);
     }
     .badge-img {
@@ -39,25 +39,31 @@
 
   <div class="container my-5" style="max-width: 900px;">
     
-    <!-- Header Section -->
-    <div class="text-center mb-5">
-      <img src="photo.jpg" alt="Tin Thanda Swe" class="profile-img mb-3">
-      <h1 class="fw-bold">Hi there, I'm Tin Thanda Swe 👋</h1>
-      <p class="lead text-muted">
-        Senior Software Engineer with <strong>14+ years of experience</strong> building high-availability enterprise web/Windows applications, scalable microservices, and modern cloud solutions.
-      </p>
+    <!-- First Row: 2 Columns (Image Left, Core Details Right) -->
+    <div class="row align-items-center mb-4">
+      <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+        <img src="public/photo.png" alt="Tin Thanda Swe" class="profile-img">
+      </div>
+      <div class="col-md-8">
+        <h1 class="fw-bold mb-1">Tin Thanda Swe</h1>
+        <h5 class="text-primary fw-semibold mb-2">Senior Software Engineer</h5>
+        <p class="text-muted mb-2">Singapore | Phone: +65 8118 8434 | Email: ttdswe7@gmail.com</p>
+        <p class="mb-0">
+          Senior Software Engineer with <strong>14+ years of experience</strong> building enterprise Web and Windows applications, scalable microservices, and modern cloud solutions.
+        </p>
+      </div>
     </div>
 
     <hr class="my-4">
 
     <!-- About Me -->
     <section class="mb-5">
-      <h2 class="h3 fw-bold mb-3">🚀 About Me</h2>
-      <ul class="list-unstyled lh-lg fs-5">
+      <h2 class="h3 fw-bold mb-3">About Me</h2>
+      <ul class="list-unstyled lh-lg fs-6">
         <li>🎓 <strong>M.Sc. in Computer Engineering</strong> – Nanyang Technological University (NTU), Singapore</li>
         <li>💼 Currently: <strong>Senior Software Developer</strong> at Texture Media Pte., Ltd.</li>
         <li>🛠️ Deep expertise in <strong>.NET Core/8/10, C#, ReactJS, NodeJS</strong>, and Cloud Architecture (AWS).</li>
-        <li>📜 <strong>PMP® Certified</strong> | <strong>Microsoft Certified Technical Specialist (MCTS)</strong></li>
+        <li>📜 <strong>PMP® Certified</strong> | <strong>GitHub Copilot for Developer</strong> | <strong>Full Stack Web Development with React</strong></li>
         <li>📍 Based in <strong>Singapore</strong></li>
       </ul>
     </section>
@@ -66,7 +72,7 @@
 
     <!-- Tech Stack -->
     <section class="mb-5">
-      <h2 class="h3 fw-bold mb-4">🛠 Tech Stack & Tools</h2>
+      <h2 class="h3 fw-bold mb-4">Tech Stack & Tools</h2>
       
       <div class="mb-3">
         <h5 class="fw-semibold text-secondary">Languages</h5>
@@ -107,28 +113,28 @@
 
     <!-- Experience Highlights -->
     <section class="mb-5">
-      <h2 class="h3 fw-bold mb-4">💼 Experience Highlights</h2>
+      <h2 class="h3 fw-bold mb-4">Experience Highlights</h2>
 
       <div class="card p-3 mb-3">
-        <h4 class="h5 fw-bold mb-1">Senior Software Developer <span class="text-muted fw-normal fs-6">| Texture Media Pte., Ltd. (2017 – Present)</span></h4>
+        <h4 class="h5 fw-bold mb-1">Senior Software Developer <span class="text-muted fw-normal fs-6">| Texture Media Pte., Ltd. (April 2017 – Present)</span></h4>
         <ul class="mt-2 mb-0">
-          <li>Architecting scalable microservices using <strong>.NET Core / .NET 8/10</strong>, <strong>ReactJS</strong>, and <strong>NodeJS</strong>[cite: 1, 2].</li>
-          <li>Managing cloud-native containerized applications on <strong>AWS (EC2, S3, RDS)</strong> with <strong>Docker</strong> & automated <strong>GitHub Actions CI/CD</strong>[cite: 1, 2].</li>
-          <li>Built payment pipelines with Stripe API, OAuth2/JWT security, and multi-tenant SaaS dashboards[cite: 1, 2].</li>
+          <li>Architecting scalable microservices using <strong>.NET Core / .NET 8/10</strong>, <strong>ReactJS</strong>, and <strong>NodeJS</strong>.</li>
+          <li>Managing cloud-native containerized applications on <strong>AWS (EC2, S3, RDS)</strong> with <strong>Docker</strong> & automated <strong>GitHub Actions CI/CD</strong>.</li>
+          <li>Built payment pipelines with Stripe API, OAuth2/JWT security, and multi-tenant SaaS dashboards.</li>
         </ul>
       </div>
 
       <div class="card p-3 mb-3">
-        <h4 class="h5 fw-bold mb-1">Application Developer <span class="text-muted fw-normal fs-6">| UOB Kay Hian Pte., Ltd. (2016 – 2017)</span></h4>
+        <h4 class="h5 fw-bold mb-1">Application Developer <span class="text-muted fw-normal fs-6">| UOB Kay Hian Pte., Ltd. (September 2016 – February 2017)</span></h4>
         <ul class="mt-2 mb-0">
-          <li>Enhanced low-latency, high-concurrency stock trading systems and client-server ASP.NET applications[cite: 1, 2].</li>
+          <li>Enhanced low-latency, high-concurrency stock trading systems and client-server ASP.NET applications.</li>
         </ul>
       </div>
 
       <div class="card p-3 mb-3">
-        <h4 class="h5 fw-bold mb-1">Software Developer <span class="text-muted fw-normal fs-6">| System Overdrive Pte., Ltd. (2012 – 2016)</span></h4>
+        <h4 class="h5 fw-bold mb-1">Software Developer <span class="text-muted fw-normal fs-6">| System Overdrive Pte., Ltd. (April 2012 – August 2016)</span></h4>
         <ul class="mt-2 mb-0">
-          <li>Designed ERP systems, Windows (WinForms) applications, and enterprise database modules[cite: 1, 2].</li>
+          <li>Designed ERP systems, Windows (WinForms) applications, and enterprise database modules.</li>
         </ul>
       </div>
     </section>
@@ -137,52 +143,52 @@
 
     <!-- Featured Projects -->
     <section class="mb-5">
-      <h2 class="h3 fw-bold mb-4">📌 Featured Projects</h2>
+      <h2 class="h3 fw-bold mb-4">Featured Projects</h2>
 
       <div class="card p-3 mb-3">
-        <h4 class="h5 fw-bold">🎟️ MBS Kiosk & NGS Pass Dispenser Ticketing Systems</h4>
+        <h4 class="h5 fw-bold">MBS Kiosk & NGS Pass Dispenser Ticketing Systems</h4>
         <p class="text-muted small mb-2">
           <strong>Tech Stack:</strong> 
-          <span class="tech-stack-code">.NET 8/10</span> <span class="tech-stack-code">ASP.NET MVC</span> <span class="tech-stack-code">ReactJS</span> <span class="tech-stack-code">NodeJS</span> <span class="tech-stack-code">MS SQL Server</span> <span class="tech-stack-code">REST API</span> <span class="tech-stack-code">OAuth 2.0</span>[cite: 1, 2]
+          <span class="tech-stack-code">.NET 8/10</span> <span class="tech-stack-code">ASP.NET MVC</span> <span class="tech-stack-code">ReactJS</span> <span class="tech-stack-code">NodeJS</span> <span class="tech-stack-code">MS SQL Server</span> <span class="tech-stack-code">REST API</span> <span class="tech-stack-code">OAuth 2.0</span>
         </p>
         <ul class="mb-0">
-          <li>Integrated 3rd-party ticketing APIs for high-traffic kiosk endpoints[cite: 1, 2].</li>
-          <li>Optimized high-volume transaction data persistence with NAS storage and secure JWT authentication[cite: 1, 2].</li>
+          <li>Integrated 3rd-party ticketing APIs for high-traffic kiosk endpoints.</li>
+          <li>Optimized high-volume transaction data persistence with NAS storage and secure JWT authentication.</li>
         </ul>
       </div>
 
       <div class="card p-3 mb-3">
-        <h4 class="h5 fw-bold">🩸 HSA Singapore National Blood Bank Kiosk System</h4>
+        <h4 class="h5 fw-bold">HSA Singapore National Blood Bank Kiosk System</h4>
         <p class="text-muted small mb-2">
           <strong>Tech Stack:</strong> 
-          <span class="tech-stack-code">RESTful API</span> <span class="tech-stack-code">ASP.NET MVC</span> <span class="tech-stack-code">MSSQL</span>[cite: 1, 2]
+          <span class="tech-stack-code">RESTful API</span> <span class="tech-stack-code">ASP.NET MVC</span> <span class="tech-stack-code">MSSQL</span>
         </p>
         <ul class="mb-0">
-          <li>Backend engineer for Health Sciences Authority (HSA) Singapore donor registration[cite: 1, 2].</li>
-          <li>Built secure API endpoints adhering strictly to public sector data privacy frameworks[cite: 1, 2].</li>
+          <li>Backend engineer for Health Sciences Authority (HSA) Singapore donor registration.</li>
+          <li>Built secure API endpoints adhering strictly to public sector data privacy frameworks.</li>
         </ul>
       </div>
 
       <div class="card p-3 mb-3">
-        <h4 class="h5 fw-bold">🎮 Game AR Content & Rules Management System</h4>
+        <h4 class="h5 fw-bold">Game AR Content & Rules Management System</h4>
         <p class="text-muted small mb-2">
           <strong>Tech Stack:</strong> 
-          <span class="tech-stack-code">.NET 8</span> <span class="tech-stack-code">AWS (EC2, S3, RDS)</span> <span class="tech-stack-code">REST API</span> <span class="tech-stack-code">SQL Server</span>[cite: 1, 2]
+          <span class="tech-stack-code">.NET 8</span> <span class="tech-stack-code">AWS (EC2, S3, RDS)</span> <span class="tech-stack-code">REST API</span> <span class="tech-stack-code">SQL Server</span>
         </p>
         <ul class="mb-0">
-          <li>Engineered high-concurrency APIs for real-time game logic and scoring synchronization[cite: 1, 2].</li>
-          <li>Leveraged AWS S3 for scalable AR asset delivery[cite: 1, 2].</li>
+          <li>Engineered high-concurrency APIs for real-time game logic and scoring synchronization.</li>
+          <li>Leveraged AWS S3 for scalable AR asset delivery.</li>
         </ul>
       </div>
 
       <div class="card p-3 mb-3">
-        <h4 class="h5 fw-bold">📅 Mobile-Responsive Leave Management Portal</h4>
+        <h4 class="h5 fw-bold">Mobile-Responsive Leave Management Portal</h4>
         <p class="text-muted small mb-2">
           <strong>Tech Stack:</strong> 
-          <span class="tech-stack-code">.NET 10</span> <span class="tech-stack-code">AWS (EC2, RDS)</span> <span class="tech-stack-code">Google Calendar API</span> <span class="tech-stack-code">Bootstrap</span> <span class="tech-stack-code">MSSQL</span>[cite: 1, 2]
+          <span class="tech-stack-code">.NET 10</span> <span class="tech-stack-code">AWS (EC2, RDS)</span> <span class="tech-stack-code">Google Calendar API</span> <span class="tech-stack-code">Bootstrap</span> <span class="tech-stack-code">MSSQL</span>
         </p>
         <ul class="mb-0">
-          <li>Cross-device portal integrated with Google Calendar automation and AWS SES email notifications[cite: 1, 2].</li>
+          <li>Cross-device portal integrated with Google Calendar automation and AWS SES email notifications.</li>
         </ul>
       </div>
     </section>
@@ -191,9 +197,9 @@
 
     <!-- Connect -->
     <section class="text-center mb-4">
-      <h2 class="h4 fw-bold mb-3">📬 Connect with Me</h2>
-      <a href="https://linkedin.com/in/tinthandaswe" target="_blank" class="btn btn-outline-primary m-1">🌐 LinkedIn</a>[cite: 1, 2]
-      <a href="mailto:ttdswe7@gmail.com" class="btn btn-outline-dark m-1">✉️ Email Me</a>[cite: 1, 2]
+      <h2 class="h4 fw-bold mb-3">Connect with Me</h2>
+      <a href="https://www.linkedin.com/in/tinthandaswe" target="_blank" class="btn btn-outline-primary m-1">LinkedIn</a>
+      <a href="mailto:ttdswe7@gmail.com" class="btn btn-outline-dark m-1">Email Me</a>
     </section>
 
   </div>
